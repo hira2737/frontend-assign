@@ -47,7 +47,7 @@ function Navbar() {
             </NavLink>
           ))}
           <Button to="/contact" onClick={closeMenu}>
-            Start a project
+            Let&apos;s talk
           </Button>
         </div>
       </nav>

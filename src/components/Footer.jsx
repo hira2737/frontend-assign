@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-top">
         <div>
           <p className="eyebrow">Northstar Studio</p>
-          <h3>Designing websites that feel sharp, calm, and ready to launch.</h3>
+          <h3>We design websites that feel clear, calm, and ready to ship.</h3>
         </div>
 
         <div className="footer-links">
@@ -18,7 +18,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>Built with React + Vite. Ready for Vercel.</p>
+        <p>Built with React and Vite. Ready to deploy.</p>
         <p>hello@northstar.studio</p>
       </div>
     </footer>

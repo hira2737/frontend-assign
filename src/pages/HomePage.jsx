@@ -5,26 +5,26 @@ import StatCard from '../components/StatCard'
 
 const services = [
   {
-    title: 'Brand-led websites',
-    text: 'Web experiences that look premium without feeling stiff or overdesigned.',
+    title: 'Brand-first websites',
+    text: 'Websites that feel polished, clear, and easy to trust.',
     label: '01'
   },
   {
     title: 'Product storytelling',
-    text: 'Landing pages with pacing, contrast, and clarity that help people stay engaged.',
+    text: 'Landing pages with the right pace, structure, and clarity.',
     label: '02'
   },
   {
     title: 'Fast frontends',
-    text: 'Clean React builds with reusable pieces, responsive behavior, and room to scale.',
+    text: 'Clean React builds with reusable parts and solid responsive behavior.',
     label: '03'
   }
 ]
 
 const stats = [
-  { value: '32+', label: 'launches shipped' },
-  { value: '4 weeks', label: 'average first release' },
-  { value: '96%', label: 'client return rate' }
+  { value: '32+', label: 'projects launched' },
+  { value: '4 weeks', label: 'average first version' },
+  { value: '96%', label: 'clients who come back' }
 ]
 
 function HomePage() {
@@ -32,18 +32,18 @@ function HomePage() {
     <div className="page">
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow hero-eyebrow">Creative frontend studio</p>
+          <p className="eyebrow hero-eyebrow">Frontend design studio</p>
           <h1 className="hero-title">
-            We build clean, high-trust websites for brands that are done looking generic.
+            We design and build websites for brands that want something sharper than the usual.
           </h1>
           <p className="hero-text">
-            Northstar blends visual direction, solid frontend work, and conversion-focused
-            structure into websites that feel polished on every screen.
+            Northstar brings together strong visual direction, clean frontend work, and
+            thoughtful structure to make every page feel solid on any screen.
           </p>
           <div className="hero-actions">
-            <Button to="/work">See our work</Button>
+            <Button to="/work">View work</Button>
             <Button to="/services" variant="secondary">
-              What we do
+              See services
             </Button>
           </div>
         </div>
@@ -52,8 +52,8 @@ function HomePage() {
           <div className="hero-orbit hero-orbit-one" />
           <div className="hero-orbit hero-orbit-two" />
           <div className="hero-note">
-            <span>Selected approach</span>
-            <strong>Simple systems, better detail, less clutter</strong>
+            <span>How we work</span>
+            <strong>Simple systems, sharp details, no extra clutter</strong>
           </div>
         </div>
       </section>
@@ -66,9 +66,9 @@ function HomePage() {
 
       <section className="section">
         <SectionHeading
-          eyebrow="Core services"
-          title="Built like a real studio team, not a template machine."
-          text="We keep the process focused so the design stays strong and the frontend stays reliable."
+          eyebrow="Services"
+          title="The process stays simple, but the end result feels properly finished."
+          text="We keep things focused so the design stays strong and the frontend stays easy to work with."
         />
 
         <div className="card-grid three">
@@ -80,16 +80,16 @@ function HomePage() {
 
       <section className="split-banner">
         <div>
-          <p className="eyebrow">Why clients stay</p>
-          <h2>Sharp visuals, honest structure, and a frontend that is actually easy to maintain.</h2>
+          <p className="eyebrow">Why teams come back</p>
+          <h2>Clear visuals, smart structure, and frontend code that still feels clean later on.</h2>
         </div>
         <div>
           <p>
-            Good design is not just about looking expensive. It should guide attention, make
-            the message obvious, and still feel smooth on mobile. That is the part we care about.
+            Good design is not just about looking polished. It should guide attention, make
+            the message easy to follow, and still feel smooth on mobile. That is the part we care about.
           </p>
           <Button to="/contact" variant="secondary">
-            Start the conversation
+            Start a project
           </Button>
         </div>
       </section>

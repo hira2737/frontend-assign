@@ -37,7 +37,7 @@ function ContactForm() {
               name="name"
               value={values.name}
               onChange={handleChange}
-              placeholder="Your name"
+              placeholder="Jane Doe"
               required
             />
           </label>
@@ -49,7 +49,7 @@ function ContactForm() {
               name="email"
               value={values.email}
               onChange={handleChange}
-              placeholder="you@example.com"
+              placeholder="jane@company.com"
               required
             />
           </label>
@@ -61,17 +61,17 @@ function ContactForm() {
               name="company"
               value={values.company}
               onChange={handleChange}
-              placeholder="Studio or brand"
+              placeholder="Your company"
             />
           </label>
 
           <label className="full">
-            Project details
+            Project brief
             <textarea
               name="message"
               value={values.message}
               onChange={handleChange}
-              placeholder="Tell us what you are building"
+              placeholder="Tell us a bit about the project"
               rows="6"
               required
             />
@@ -79,14 +79,14 @@ function ContactForm() {
         </div>
 
         <div className="form-footer">
-          <p>Usually reply in 1-2 business days.</p>
-          <Button type="submit">Send inquiry</Button>
+          <p>We usually reply within 1 to 2 business days.</p>
+          <Button type="submit">Send message</Button>
         </div>
       </form>
 
       {submitted ? (
         <div className="form-message">
-          <strong>Thanks, your message is in.</strong>
+          <strong>Thanks, your message is on the way.</strong>
           <p>We will get back to you soon.</p>
         </div>
       ) : null}
